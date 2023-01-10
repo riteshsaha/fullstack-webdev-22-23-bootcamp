@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Contact Information</title>
+  </head>
+  <body>
+    <p><a href="index.html">Home</a> > Contact Information</p>
+    <h1>Contact Information</h1>
+    <hr />
+    <table cellspacing="10">
+      <tbody>
+        <tr>
+          <td>Name</td>
+          <td><em>Jon Kleinberg</em></td>
+        </tr>
+        <tr>
+          <td>Department</td>
+          <td><em>Computing and Information Science</em></td>
+        </tr>
+        <tr>
+          <td>Address</td>
+          <td>
+            <em>Gates Hall <br />Cornell University <br />Ithaca, NY 14853</em>
+          </td>
+        </tr>
+        <tr>
+          <td>Contact Number</td>
+          <td><em>📞 (607)255-9197</em></td>
+        </tr>
+        <tr>
+          <td>Email Address</td>
+          <td><em>📧 kleinberg@cornell.edu</em></td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <h2>Ask Jon</h2>
+    <form action="mailto:kleinberg@cornell.edu" method="post">
+      <label>Your Name</label>
+      <input type="text" name="user-name" value="" /><br />
+      <label>Your Email</label>
+      <input type="email" name="user-email" value="" /><br />
+      <label>Your Date of Birth</label>
+      <input type="date" name="user-dob" value="" /><br />
+      <label>Your Message</label>
+      <textarea name="user-message" rows="10" cols="20"></textarea><br /><br />
+      <input type="submit" name="Submit" />
+    </form>
+    <hr />
+  </body>
+</html>
